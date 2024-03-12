@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Task 2</title>
+    <link rel="icon" type="image/png" href="images/start bootstrap.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>\
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg bg-white shadow-sm fixed-top p-3">
+        <div class="container d-flex">
+            <div class="fw-bold start">
+                <a class="done fs-5 ms-4 text-decoration-none text-dark start" href="#startbootstrap">Start Bootstrap</a>
+            </div>
+            <button type="button" class="navbar-toggler bg-light text-dark" data-bs-toggle="collapse" data-bs-target="#menu">
+                <div class="menu d-flex text-dark fs-3">
+                    <h6>Menu</h6>
+                    <i class=' bx bx-menu bx-sm fs-4'></i>
+                </div>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="menu">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="done nav-link me-3 text-black color" href="#Features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class=" done nav-link me-5 text-black color" href="#downloads">Downloads</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class=" done btn btn-primary rounded-pill" type="button" data-bs-toggle="modal" data-bs-target="#form" href="#"><i class='bx bx-message-rounded-detail fs-5 text-center'></i><span class="text-center send"> Send Feedback</span></a>
+                    </li>
+                </ul> 
+            </div>   
+        </div>
+    </nav>
+    <div class="modal" id="form">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header text-white fw-bold feedback">
+                    <h4 class="form fs-5">Send feedback</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-floating mb-3 form">
+                            <input type="text" class="form-control" id="name" name="fname" placeholder="enter your name">
+                            <label for="name">Full name</label>
+                        </div>
+                        <div class="form-floating mb-3 form">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="enter your email">
+                            <label for="email">Email address</label>
+                        </div>  
+                        <div class="form-floating mb-3 form">
+                            <input type="number" class="form-control" id="number" name="number" placeholder="enter your number">
+                            <label for="number">Phone number</label>
+                        </div> 
+                        <div class="form-floating form">
+                            <textarea type="text" id="msg" class="form-control" placeholder="enter ur comments" style="height:10rem"></textarea>
+                            <label for="msg">Message</label>
+                        </div>    
+                    </form>       
+                </div>
+                <div class="modal-footer justify-content-center form">
+                    <button type="button" class="btn btn-primary rounded-pill fs-5 sub">Submit</button>
+                </div>
+            </div> 
+        </div>
+    </div>
+    <div id="startbootstrap">
+    <div class="container-fluid bg-light">
+        <div class="container mt-lg-5 px-5 mb-4 case">
+            <div class="row text-align-center">
+                <div class="col-lg-5 mb-lg-0 text-center text-lg-start pt-3 mt-5">
+                    <div>
+                        <h1 class=" rower lh-1  mt-5 display-1 fw-bold">Showcase your app beautifully.</h1>
+                    </div>
+                    <div>
+                        <div class=" clone  mt-4 text-muted">Launch your mobile app landing page faster with this free, open source theme from Start Bootstrap!</div>
+                    </div>
+                    <div class="mt-4"> 
+                        <a href="#"><img src="images/gplay.svg" width="160px" class="mb-3 mt-4 img-fluid"></a>
+                        <a href="#"><img src="images/app.svg" width="160px" class="mb-3 mt-4 img-fluid"></a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="m-b-l d-md-flex ps-md-4 ps-lg-0 ">
+                        <svg class="d-md-block mt-0 me-0 scale" height="600" width="600">
+                          <defs class="cir">
+                            <linearGradient id="lineargradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                              <stop offset="0%" stop-color="#6610f2" />
+                              <stop offset="100%" stop-color="#9f1ae2" />
+                            </linearGradient>
+                          </defs>
+                          <ellipse cx="56%" cy="300" rx="190" ry="180"  fill="url(#lineargradient)" class="measure"></ellipse>
+                          <image class="mbl" href="https://bootstrap2-840b2.web.app/img/mobile.jfif" height="460px" x="34%" y="65px"></image>
+                        </svg>
+                        <svg class="position-absolute d-none d-md-block" width="500"height="100" viewbox="-210 -40 100 100">
+                            <circle cx="50" cy="50" r="6" fill="blue"></circle>
+                        </svg> 
+                        <svg class="position-absolute d-none d-md-block" width="500px"height="500px" viewbox="-13 -92 100 100">
+                            <rect rx="50" ry="50" fill="blue" width="1" height="4" style="transform:rotate(130deg);"></rect>
+                        </svg>
+                        <svg class="position-absolute d-none d-md-block" width="500px"height="500px" viewbox="-11 -93 100 100">
+                            <rect rx="50" ry="50" fill="blue" width="1" height="4" style="transform: rotate(200deg);"></rect>
+                        </svg> 
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </div>
+    </div>
+    <div class="feedback container-fluid  display-6 text-white p-5  fw-bold text-center">
+        <div class="container col-lg-7">
+            <div class="mt-4">"An intuitive solution to a common problem that we all face, wrapped up in a single app!"</div>
+            <img src="images/tnw-logo.svg" width="100px" class="mt-4 pb-5">
+        </div>
+    </div>
+    <div id="Features">
+    <div class="container-fluid phone d-flex flex-row-reverse">
+        <div class="container">
+            <div class="row flex-lg-row-reverse px-5">
+                <div class="col-lg-6  mt-3">
+                    <div class="row">
+                            <div class="col-lg-6 col-md-6 text-center mt-5  pt-3 ps-2">
+                                <i class='bx bx-mobile-alt display-1 icon'></i>
+                                <h4 class="head fw-bold">Device Mockups</h4>
+                                <div class="done fw-normal text-muted">Ready to use HTML/CSS device mockups, no Photoshop required!</div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 text-center mt-5 pt-3 ps-3">
+                                <i class='bx bx-camera display-1 icon'></i>
+                                <h4 class="head fw-bold">Flexible Use</h4>
+                                <div class="done text-muted">Put an image, video, animation, or anything else in the screen!</div>
+                            </div>   
+                            <div class="col-lg-6 col-md-6 text-center mt-5 pt-3 ps-1">
+                                <i class='bx bx-gift display-1 icon'></i>
+                                <h4 class="head fw-bold">Free to Use</h4>
+                                <div class="done text-muted">As always, this theme is free to download and use for any purpose!</div>
+                            </div>
+                            <div class="col-lg-6 col-md-6  text-center mt-5 pt-3">
+                                <i class='bx bx-badge-check display-1 icon'></i>
+                                <h4 class="head fw-bold">Open Source</h4>
+                                <div class="done text-muted">Since this theme is MIT licensed, you can use it commercially!</div>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 text-center mt-3 position-relative d-flex">
+                    <svg class="d-md-block mt-0 scale" height="600" width="500">
+                        <defs class="cir">
+                          <linearGradient id="lineargradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" stop-color="#6610f2" />
+                            <stop offset="100%" stop-color="#9f1ae2" />
+                          </linearGradient>
+                        </defs>
+                        <ellipse cx="200" cy="300" rx="140" ry="140" fill="url(#lineargradient)"></ellipse>
+                        <image href="https://bootstrap2-840b2.web.app/img/mobile.jfif" height="460px" x="30%" y="65px" class="ellip"></image>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+        <div class="container-fluid bg-light mt-0">
+            <div class="container">
+                <div class="row  align-items-center justify-content-center justify-content-lg-between">
+                    <div class="col-lg-5 my-5 text-justify text-lg-start">
+                        <h1 class="display-4 fw-bold lh-1">Enter a new age <br> of  web design</h1>
+                        <p class="done text-muted fw-normal  mt-4 fs-5">This section is perfect for featuring some information about your application, why it  was built, the problem it solves, or anything else! There's plenty of space for text here, so don't worry about writing too much.</p>
+                    </div>
+                    <div class="col-lg-6 mt-5 mb-5 px-5">
+                        <div><img src="images/circle.jpg" class="rounded-circle img-fluid"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="container-fluid source">
+        <div class="container py-5 px-5">
+            <div class="sourceimg">
+            <h1 class="display-1 text-white fw-bold">Stop waiting.</h1>
+            <h1 class="display-1 text-white fw-bold mb-4">Start building.</h1>
+            <a href="https://startbootstrap.com/theme/new-age" class="done btn btn-outline-light text-decoration-none rounded-pill  p-3 ps-md-4 pe-md-4 ">Download for free</a>
+        </div>
+        </div>
+    </div>
+    </div>
+    <div id="downloads">
+    <div class="feedback text-center py-5">
+        <h2 class="fw-bold dark text-white mt-4">Get the app now!</h2>
+        <div class="mt-4 mb-4 d-flex flex-column flex-lg-row align-items-center justify-content-center">
+            <a href="#" class="me-lg-3"><img src="images/gplay.svg" width="160px" class="mb-3 img-fluid"></a>
+            <a href="#"><img src="images/app.svg" width="160px" class="mb-3 me-lg-3 img-fluid"></a>
+        </div>
+    </div>
+    <div class="text-center bg-black text-secondary p-5">
+        <div><i class='bx bx-copyright'></i> Your Website 2023. All Rights Reserved.</div>
+        <div class="text-secondary mt-2">
+            <a href="#" class=" last text-decoration-none text-secondary">Privacy</a>
+            <span class="mx-1">·</span>
+            <a href="#" class="last text-decoration-none text-secondary">Terms</a>
+            <span class="mx-1">·</span>
+            <a href="#" class="last text-decoration-none text-secondary">FAQ</a>
+        </div>
+    </div>
+    </div>
+    </div>
+</body>
+</html>
